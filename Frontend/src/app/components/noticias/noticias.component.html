@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+
+<div class="grid-layout">
+    <div class="title">
+        <h1>Noticias</h1>
+    </div>
+
+    <div class="test mb-5" *ngIf="info && info.length>0">
+        <div class="test" *ngFor="let infoData of info.slice(0, itemsToShow)">
+            <div class="test" *ngIf="infoData.id %2 == 0">
+                <div class="new">
+                    <div class="new1img">
+                        <img class="news1" src="{{infoData.url_img}}">
+                    </div>
+                    <div class="newsDetails1">
+                        <h1>{{infoData.titulo}}</h1>
+                        <h6>{{infoData.fecha}}</h6>
+                        <p>
+                            {{infoData.descripcion}}
+                        </p>
+                        <a href="{{infoData.url_noticia}}" class="btn">Más información</a>
+                    </div>
+                </div>
+                <hr class="line" [ngClass]="{'inv': infoData.id == 2 || infoData.id == 5}" id={{infoData.id}}>
+            </div>
+            <div class="test" *ngIf="infoData.id %2 != 0">
+                <div class="new">
+                    <div class="newsDetails2">
+                        <h1>{{infoData.titulo}}</h1>
+                        <h6>{{infoData.fecha}}</h6>
+                        <p>
+                            {{infoData.descripcion}}
+                        </p>
+                        <a href="{{infoData.url_noticia}}" class="btn">Más información</a>
+                    </div>
+                    <div class="new2img">
+                        <img class="news2" src="{{infoData.url_img}}">
+                    </div>
+                </div>
+                <hr class="line" [ngClass]="{'inv': infoData.id == 2 || infoData.id == 5}" id={{infoData.id}}>
+            </div>
+        </div>
+    </div>
+
+    <button class="verMas" *ngIf="itemsToShow <info.length" (click)="loadMore()">
+        <p><a>Ver más</a></p>
+    </button>
+
+</div>
+<app-footer></app-footer>

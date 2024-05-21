@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "titulo": "Éxito inicial y posterior explosión del megacohete Starship",
+    "fecha": "18 nov 2023",
+    "descripcion": "SpaceX ha logrado superar los problemas más graves de la anterior prueba de su lanzadera espacial superpesada, que esta vez llegó a salir al espacio antes de explotar.",
+    "url_img": "../../../assets/images/noticias/news0.jpg",
+    "url_noticia": "https://elpais.com/ciencia/2023-11-18/segundo-lanzamiento-del-starship-de-spacex.html?autoplay=1"
+  },
+  {
+    "id": 1,
+    "titulo": "Primeras imágenes de 'Euclid', el detective en busca de los secretos del 95% del cosmos",
+    "fecha": "07 nov 2023",
+    "descripcion": "La Agencia Espacial Europea presenta los primeros resultados del telescopio que pretende entender los dos mayores enigmas del universo: la materia oscura y la energía oscura.",
+    "url_img": "../../../assets/images/noticias/news1.jpg",
+    "url_noticia": "https://elpais.com/ciencia/2023-11-07/la-agencia-espacial-europea-publica-las-primeras-imagenes-de-la-mision-espacial-euclid.html"
+  },
+  {
+    "id": 2,
+    "titulo": "El Telescopio James Webb captura una impactante imagen de una estrella recién nacida emitiendo chorros gigantes",
+    "fecha": "04 nov 2023",
+    "descripcion": "La imagen de HH212 fue captada por la cámara de infrarrojo cercano (NIRCam) del JWST. No se puede ver la protoestrella en sí porque está oscurecida por un denso disco de gas y polvo que cae hacia el interior. Hay algunas estrellas maduras en el campo de visión, pero la mayoría de los puntos de luz son galaxias muy distantes.",
+    "url_img": "../../../assets/images/noticias/news2.jpg",
+    "url_noticia": "https://www.bbc.com/mundo/articles/ce7p1pw7165o"
+  },
+  {
+    "id": 3,
+    "titulo": "India hace historia al aterrizar una nave no tripulada en el polo sur de la Luna, siendo el primer país en lograrlo",
+    "fecha": "23 ago 2023",
+    "descripcion": "La misión Chandrayaan-3 consiguió llevar un módulo, el cual contiene un vehículo guiado a control remoto que recorrerá esta inexplorada zona de la Luna, para buscar hielo a base de agua.",
+    "url_img": "../../../assets/images/noticias/news3.png",
+    "url_noticia": "https://www.bbc.com/mundo/articles/c3gzwlq1y33o"
+  },
+  {
+    "id": 4,
+    "titulo": "Nave espacial obsoleta de la NASA regresa a la Tierra tras 21 años",
+    "fecha": "21 abr 2023",
+    "descripcion": "a nave espacial RHESSI de la NASA se desintegró en la atmósfera sobre el desierto del Sáhara, tras casi 21 años desde su lanzamiento. Durante su tiempo en órbita, RHESSI observó erupciones solares, proporcionando conocimientos sobre su física.",
+    "url_img": "../../../assets/images/noticias/news4.jpeg",
+    "url_noticia": "https://cnnespanol.cnn.com/2023/04/21/obsoleta-nave-espacial-rhessi-nasa-regresa-tierra-21-anos-despues-trax/"
+  },
+  {
+    "id": 5,
+    "titulo": "El telescopio SuperBIT en globo publica las primeras imágenes de investigación",
+    "fecha": "20 abr 2023",
+    "descripcion": "El telescopio SuperBIT, lanzado por la NASA en un globo científico el 16 de abril, ha tomado sus primeras imágenes de investigación de las galaxias de la Nebulosa de la Tarántula y las galaxias Antena.",
+    "url_img": "../../../assets/images/noticias/news5.png",
+    "url_noticia": "https://blogs.nasa.gov/superpressureballoon/2023/04/20/balloon-borne-superbit-telescope-releases-1st-research-images/"
+  }
+]

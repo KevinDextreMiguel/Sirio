@@ -1,0 +1,822 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: white;
+    --fontsize-little-text: 22px;
+    --fontsize-normal-text: 30px;
+}
+
+
+/* parte de quienes somos(Primer Bloque) */
+
+.quienessomos {
+    padding: 50px 0px 200px 0px;
+    font-size: var(--fontsize-little-text);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-image: url("../../../assets/images/about/about-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Text Card de Compromiso Position */
+
+.text-p1 {
+    grid-column: 2 / span 5;
+}
+
+
+/* Titulo de Compromiso */
+
+.text-p1 h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+    font-family: 'Martel';
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/* Text Card de Compromiso Background */
+
+.card-text {
+    font-size: var(--fontsize-little-text);
+    font-family: 'Roboto';
+    text-align: justify;
+    background-color: rgb(0, 0, 0, 0.75);
+    padding: 10%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/* All Sirio Logo (Position and Background) */
+
+.about-img {
+    grid-column: 7 / span 6;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/* Img Sirio Logo */
+
+.about-logo {
+    width: 300px;
+    height: auto;
+    background-color: transparent;
+}
+
+
+/* Valores, Vision ,Mision Bloque */
+
+.valores-vision-mision {
+    display: grid;
+    background-color: #0D1525;
+}
+
+
+/*Contenedor de "Valores" y "Vision, Mision" Bloque*/
+
+.bigcube {
+    margin: 50px 100px;
+}
+
+
+/*Valores Bloque*/
+
+.valores {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px;
+}
+
+
+/*Linea que separa Valores con "Vision, Mision" Bloque*/
+
+.simple-line {
+    height: 5px;
+    margin: 80px 0px;
+    width: 100%;
+    background-color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+/*Titulo del Bloque Valores (texto "Nuestros Valores" )*/
+
+.title-valores {
+    font-size: var(--fontsize-normal-text);
+    margin-bottom: 50px;
+    font-family: 'Martel';
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+/*Titulo de Valores SPAN (texto "Valores" )*/
+
+.title-valores span {
+    font-size: 42px;
+}
+
+
+/* TEXT CARD de Innovacion */
+
+.innovacion {
+    grid-column: 1 / span 4;
+    --color: hsl(302, 100%, 50%);
+}
+
+
+/* TEXT CARD de Pasion */
+
+.pasion {
+    grid-column: 5 / span 4;
+    --color: hsl(0, 100%, 50%);
+}
+
+
+/* TEXT CARD de Excelencia */
+
+.excelencia {
+    grid-column: 9 / span 4;
+    --color: hsl(240, 100%, 50%);
+}
+
+
+/* TEXT CARD WITH IMG GENERICO */
+
+.card_img {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* LA IMAGEN DE CADA TEXT CARD */
+
+.valores_circle_img {
+    margin: 30px auto;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0px 0px 0px 8px #141313, 0 0 600px 1px var(--color);
+}
+
+
+/* LA IMAGEN EN SI DE CADA TEXT CARD*/
+
+.valores_circle_img img {
+    width: 230px;
+    height: auto;
+}
+
+
+/* Titulo de cada Text card en Valores Bloque */
+
+.title-card_img {
+    font-size: var(--fontsize-normal-text);
+    font-family: 'Martel';
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/* Texto de cada Text card en Valores Bloque */
+
+.text-card-img {
+    margin-top: 50px;
+    font-size: var(--fontsize-normal-text);
+    display: flex;
+    flex-grow: 1;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-weight: 500;
+    background-color: rgb(10, 15, 24, 0.5);
+    padding: 10%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/* Vision-Mision Bloque */
+
+.vision-mision {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 1fr auto;
+    gap: 40px;
+}
+
+
+/* Vision Mision TEXT CARD GENERICO */
+
+.vm-card-text {
+    font-size: var(--fontsize-little-text);
+    display: grid;
+    height: 100%;
+    font-family: 'Roboto';
+    text-align: justify;
+    margin: 0px auto;
+    padding: 10%;
+    border-radius: 30px;
+    background-color: rgb(10, 15, 24, 0.5);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/* Texto Especifico de la Mision */
+
+.Mision {
+    grid-row: 1;
+    grid-column: 1 / span 4;
+}
+
+
+/* Texto Especifico de la Vision */
+
+.Vision {
+    grid-row: 1;
+    grid-column: 9 / span 4;
+}
+
+
+/* Titulo de cada Tarjeta en el "Vision y Mision" Bloque */
+
+.vm-card-title {
+    font-size: var(--fontsize-normal-text);
+    font-family: 'Martel';
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/* Titulo especifico de Mision Tarjeta */
+
+.MisionTitle {
+    grid-row: 2;
+    grid-column: 1 / span 4;
+}
+
+
+/* Titulo especifico de Vision Tarjeta */
+
+.VisionTitle {
+    grid-row: 2;
+    grid-column: 9 / span 4;
+}
+
+
+/* Tarjeta de la Imagen del Astronauta*/
+
+.vm-card-astronaut {
+    width: 300px;
+    grid-row: 1;
+    grid-column: 5 / span 4;
+    margin: 0px auto;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+@media (max-width: 2760px) {
+    * {
+        --fontsize-little-text: 30px;
+        --fontsize-normal-text: 42px;
+    }
+    /*Titulo de Valores, texto Especifico "Valores"*/
+    .title-valores span {
+        font-size: 56px;
+    }
+    /* Tarjeta de la Imagen del Astronauta*/
+    .vm-card-astronaut {
+        width: 380px;
+    }
+}
+
+@media (max-width: 1740px) {
+    * {
+        --fontsize-little-text: 20px;
+        --fontsize-normal-text: 28px;
+    }
+    /* parte de quienes somos(Primer Bloque) */
+    .quienessomos {
+        padding: 40px 0px 150px 0px;
+    }
+    /* Titulo de Compromiso */
+    .text-p1 h2 {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+    /* Img Sirio Logo */
+    .about-logo {
+        width: 270px;
+    }
+    /*Titulo de Valores SPAN (texto "Valores" )*/
+    .title-valores span {
+        font-size: 48px;
+    }
+    /* LA IMAGEN DE CADA TEXT CARD */
+    .valores_circle_img {
+        width: 220px;
+        height: 220px;
+        border-width: 4px;
+    }
+    /* LA IMAGEN EN SI DE CADA TEXT CARD*/
+    .valores_circle_img img {
+        width: 220px;
+        height: auto;
+    }
+    /* Texto de cada Text card  */
+    .text-card-img {
+        margin-top: 40px;
+    }
+    /* Tarjeta de la Imagen del Astronauta*/
+    .vm-card-astronaut {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1280px) {
+    * {
+        --fontsize-little-text: 18px;
+        --fontsize-normal-text: 26px;
+    }
+    .text-p1 h2 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .about-logo {
+        width: 250px;
+    }
+    .title-valores span {
+        font-size: 46px;
+    }
+    .valores_circle_img {
+        width: 200px;
+        height: 200px;
+        border-width: 3px;
+    }
+    .valores_circle_img img {
+        width: 200px;
+    }
+    .text-card-img {
+        margin-top: 32px;
+    }
+    /*Contenedor de "Valores" y "Vision, Mision" Bloque*/
+    .bigcube {
+        margin: 50px;
+    }
+}
+
+@media (max-width: 1164px) {
+    .text-p1 h2 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 1130px) {
+    * {
+        --fontsize-little-text: 17px;
+        --fontsize-normal-text: 22px;
+    }
+    .text-p1 h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .about-logo {
+        width: 220px;
+    }
+    .title-valores span {
+        font-size: 40px;
+    }
+    .valores_circle_img {
+        width: 180px;
+        height: 180px;
+        border-width: 2px;
+    }
+    .valores_circle_img img {
+        width: 180px;
+    }
+}
+
+@media (max-width: 973px) {
+    * {
+        --fontsize-little-text: 15px;
+        --fontsize-normal-text: 20px;
+    }
+    .text-p1 h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .about-logo {
+        width: 180px;
+    }
+    .title-valores span {
+        font-size: 32px;
+    }
+    .valores {
+        margin: 6px;
+        gap: 45px;
+    }
+    .valores_circle_img {
+        width: 150px;
+        height: 150px;
+    }
+    .valores_circle_img img {
+        width: 150px;
+    }
+    .vm-card-astronaut {
+        width: 240px;
+    }
+}
+
+@media (max-width: 906px) {
+    * {
+        --fontsize-little-text: 14px;
+        --fontsize-normal-text: 19px;
+    }
+    .quienessomos {
+        padding-bottom: 100px;
+    }
+    .text-p1 h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .about-logo {
+        width: 140px;
+    }
+    .title-valores {
+        margin-bottom: 20px;
+    }
+    .title-valores span {
+        font-size: 28px;
+    }
+    .valores {
+        margin: 4px;
+        gap: 30px;
+    }
+    .bigcube {
+        margin: 50px 20px;
+    }
+    .vision-mision {
+        gap: 20px;
+    }
+    .valores_circle_img {
+        width: 130px;
+        height: 130px;
+    }
+    .valores_circle_img img {
+        width: 130px;
+    }
+    .text-card-img {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        --fontsize-little-text: 12px;
+        --fontsize-normal-text: 18px;
+    }
+    .text-p1 h2 {
+        font-size: 25px;
+    }
+    .about-logo {
+        width: 120px;
+    }
+    .title-valores span {
+        font-size: 26px;
+    }
+    .valores_circle_img {
+        width: 100px;
+        height: 100px;
+    }
+    .valores_circle_img img {
+        width: 100px;
+    }
+    .text-card-img {
+        margin-top: 30px;
+    }
+    .vm-card-astronaut {
+        width: 210px;
+    }
+}
+
+@media (max-width: 680px) {
+    * {
+        --fontsize-little-text: 11px;
+        --fontsize-normal-text: 16px;
+    }
+    .about-logo {
+        width: 100px;
+    }
+    .title-valores span {
+        font-size: 24px;
+    }
+    .valores_circle_img {
+        width: 80px;
+        height: 80px;
+        box-shadow: 0px 0px 0px 5px #141313, 0 0 600px 1px var(--color);
+    }
+    .valores_circle_img img {
+        width: 80px;
+        border-width: 1px;
+    }
+    .text-card-img {
+        margin-top: 30px;
+    }
+    .vm-card-astronaut {
+        width: 200px;
+    }
+}
+
+@media (max-width: 640px) {
+    * {
+        --fontsize-little-text: 13px;
+        --fontsize-normal-text: 16px;
+    }
+    .quienessomos {
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .text-p1 {
+        grid-column: 2 / span 10;
+        grid-row: 2;
+    }
+    .about-img {
+        grid-column: 2 / span 10;
+        grid-row: 1;
+    }
+    .about-logo {
+        width: 120px;
+    }
+    .title-valores span {
+        font-size: 28px;
+    }
+    .valores {
+        margin: 0px;
+        gap: 0px;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 40px;
+    }
+    .innovacion {
+        grid-row: 1;
+        grid-column: 2 / span 10;
+    }
+    .pasion {
+        grid-row: 2;
+        grid-column: 2 / span 10;
+    }
+    .excelencia {
+        grid-row: 3;
+        grid-column: 2 / span 10;
+    }
+    .valores_circle_img {
+        width: 100px;
+        height: 100px;
+        border-width: 2px;
+    }
+    .valores_circle_img img {
+        width: 100px;
+    }
+    .text-card-img {
+        margin-top: 12px;
+    }
+    .simple-line {
+        height: 2px;
+    }
+    .vision-mision {
+        grid-template-rows: 4 1fr auto;
+        gap: 20px;
+        row-gap: 10px;
+    }
+    .MisionTitle {
+        grid-row: 1;
+        grid-column: 2 / span 6;
+    }
+    .vision-mision .Mision {
+        grid-row: 2;
+        grid-column: 2 / span 6;
+    }
+    .VisionTitle {
+        margin-top: 40px;
+        grid-row: 3;
+        grid-column: 1 / span 12;
+    }
+    .vision-mision .Vision {
+        grid-row: 4;
+        grid-column: 2 / span 10;
+    }
+    .vm-card-astronaut {
+        width: 160px;
+        margin: auto;
+        grid-column: 8 / span 4;
+        grid-row: 2;
+    }
+}
+
+@media (max-width: 560px) {
+    * {
+        --fontsize-little-text: 15px;
+        --fontsize-normal-text: 20px;
+    }
+    .about-logo {
+        width: 150px;
+    }
+    .title-valores span {
+        font-size: 30px;
+    }
+    .vision-mision {
+        grid-template-rows: 5 1fr auto;
+        gap: 0px;
+    }
+    .MisionTitle {
+        margin-top: 50px;
+        grid-row: 2;
+        grid-column: 2 / span 10;
+    }
+    .vision-mision .Mision {
+        grid-row: 3;
+        grid-column: 2 / span 10;
+    }
+    .VisionTitle {
+        margin-top: 50px;
+        grid-row: 4;
+    }
+    .vm-card-title {
+        padding-bottom: 12px;
+    }
+    .vision-mision .Vision {
+        grid-row: 5;
+        grid-column: 2 /span 10;
+    }
+    .vm-card-astronaut {
+        width: 200px;
+        margin: auto;
+        grid-row: 1;
+        grid-column: 2 / span 10;
+    }
+}
+
+@media (max-width: 490px) {
+    * {
+        --fontsize-little-text: 16px;
+        --fontsize-normal-text: 22px;
+    }
+    .about-logo {
+        width: 160px;
+    }
+    .title-valores span {
+        font-size: 30px;
+    }
+    .vm-card-astronaut {
+        width: 220px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 440px) {
+    .text-p1 {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 375px) {
+    * {
+        --fontsize-little-text: 16px;
+        --fontsize-normal-text: 24px;
+    }
+    .about-logo {
+        width: 180px;
+    }
+    .bigcube {
+        margin: 50px 5;
+    }
+}
+
+@media (max-width: 375px) {
+    * {
+        --fontsize-little-text: 16px;
+        --fontsize-normal-text: 24px;
+    }
+    .quienessomos {
+        grid-template-rows: auto 1fr auto;
+        row-gap: 220px;
+    }
+    .about-logo {
+        width: 150px;
+    }
+    .about-img {
+        margin-top: 100px;
+    }
+    .title-valores span {
+        font-size: 34px;
+    }
+    .vm-card-astronaut {
+        width: 200px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 285px) {
+    .about-logo {
+        width: 150px;
+    }
+    .title-valores span {
+        font-size: 36px;
+    }
+    .text-p1 {
+        margin-top: 0px;
+    }
+    .bigcube {
+        margin: 20px 6px;
+    }
+}
+
+
+/* parte de quienes somos(Primer Bloque) */
+
+.quienessomos {
+    font-size: var(--fontsize-little-text);
+}
+
+
+/* Titulo de cada Text card en Valores Bloque */
+
+.title-card_img {
+    font-size: var(--fontsize-normal-text);
+}
+
+
+/* Texto de cada Text card en Valores Bloque */
+
+.text-card-img {
+    font-size: var(--fontsize-little-text);
+}
+
+
+/* Vision Mision TEXT CARD GENERICO */
+
+.vm-card-text {
+    font-size: var(--fontsize-little-text);
+}
+
+
+/* Titulo de cada Tarjeta en el "Vision y Mision" Bloque */
+
+.vm-card-title {
+    font-size: var(--fontsize-normal-text)
+}
+
+/*Animacion simple de scroll*/
+@keyframes show{
+    from{
+        opacity: 0;
+        scale:25%;
+    }
+    to{
+        opacity: 1;
+        scale:100%;
+    }
+}
+.valores-vision-mision *:not(.valores-vision-mision){
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range:entry 25% cover 30%;
+    animation-fill-mode: both;
+}
